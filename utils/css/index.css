@@ -1,0 +1,65 @@
+body {
+    background: var(--index-red);
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3F5EFB, var(--index-red));
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3F5EFB, var(--index-red));
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+nav {
+    background: inherit;
+}
+
+.navbar-nav>li>a:hover {
+    color: var(--light);
+}
+
+.tc-l:hover {
+    color: var(--light);
+}
+
+input {
+    border: 1px solid #dadada;
+    outline: none;
+}
+
+input::placeholder {
+    text-align: center;
+    font-family: var(--fcff);
+}
+
+.placeholder_pseudo_class {
+    outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #9ecaed;
+}
+
+.placeholder_pseudo_class::placeholder {
+    font-weight: bold;
+}
+
+.err {
+    position: relative;
+    top: 2px;
+}
+
+/* content css */
+.ss_imgs {
+    max-width: 300px;
+    max-height: 600px;
+}
+
+.submit_btns {
+    border: 2px solid var(--light);
+}
+
+.submit_btns:hover {
+    background-color: var(--light);
+    color: var(--index-red);
+}
+
+.m-auto img {
+    max-width: 150px;
+    max-height: 100px;
+}

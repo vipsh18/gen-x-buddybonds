@@ -1,0 +1,220 @@
+/* bs :P
+ --blue: #007bff;
+  --indigo: #6610f2;
+  --purple: #6f42c1;
+  --pink: #e83e8c;
+  --red: #dc3545;
+  --orange: #fd7e14;
+  --yellow: #ffc107;
+  --green: #28a745;
+  --teal: #20c997;
+  --cyan: #17a2b8;
+  --white: #fff;
+  --gray: #6c757d;
+  --gray-dark: #343a40;
+  --primary: #007bff;
+  --secondary: #6c757d;
+  --success: #28a745;
+  --info: #17a2b8;
+  --warning: #ffc107;
+  --danger: #dc3545;
+  --light: #f8f9fa;
+  --dark: #343a40;
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+*/
+:root {
+    --main-padding: 0 20px 20px 20px;
+    --default-bg-mode: #f5f6fa;
+    --bg-dark-mode: #1e1e2f;
+    --ot-bgd: #27293d;
+    --text-mute: #4b515d; 
+    --text-muted2: #9a9a9a;
+    --text-muted-white: #525f7f;
+    --def-bg-dark: #dde0ee;
+    --footer-bg: #f8f8f8;
+    --index-red: #FC466B;
+    --lil-grey: #f2f2f2;
+    --osff: "Open Sans", serif;
+    --ltff: "Lobster Two", serif;
+    --fcff: "Fira Code", serif;
+    --fsff: "Fira Sans", serif;
+    --rff: "Roboto", serif;
+    --nff: "Nunito", serif;
+}
+
+a:hover,
+a:visited,
+a:link,
+a:active {
+    text-decoration: none;
+}
+
+/* input classes */
+input:invalid,
+input:-moz-ui-invalid,
+textarea:invalid,
+textarea:-moz-ui-invalid {
+    outline: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+/* tooltip styling */
+.tooltip-inner {
+    background-color: white;
+    font-family: var(--osff);
+    color: var(--bg-dark-mode);
+    font-size: 12px;
+    border: 1px solid #a9a9a9;
+}
+
+.bs-tooltip-auto[x-placement^=bottom] .arrow::before,
+.bs-tooltip-bottom .arrow::before {
+    border-bottom-color: white !important;
+}
+
+.bs-tooltip-auto[x-placement^=top] .arrow::before,
+.bs-tooltip-top .arrow::before {
+    border-top-color: white !important;
+}
+
+.bs-tooltip-auto[x-placement^=left] .arrow::before,
+.bs-tooltip-left .arrow::before {
+    border-left-color: white !important;
+}
+
+.bs-tooltip-auto[x-placement^=right] .arrow::before,
+.bs-tooltip-right .arrow::before {
+    border-right-color: white !important;
+}
+
+/* font families */
+.fc-ff {
+    font-family: var(--fcff);
+}
+
+.fs-ff {
+    font-family: var(--fsff);
+}
+
+.lt-ff {
+    font-family: var(--ltff);
+}
+
+.os-ff {
+    font-family: var(--osff);
+}
+
+.r-ff {
+    font-family: var(--rff);
+}
+
+.n-ff {
+    font-family: var(--nff);
+}
+
+/* font-size classes */
+.fs-13 {
+    font-size: 13px;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
+.fs-15 {
+    font-size: 15px;
+}
+
+.fs-16 {
+    font-size: 16px;
+}
+
+.fs-17 {
+    font-size: 17px;
+}
+
+.fs-18 {
+    font-size: 18px;
+}
+
+.fs-19 {
+    font-size: 19px;
+}
+
+.fs-20 {
+    font-size: 20px;
+}
+
+.fs-22 {
+    font-size: 22px;
+}
+
+/* text classes */
+.tc-l {
+    color: var(--light);
+}
+
+.tc-irc {
+    color: var(--index-red);
+}
+
+.tc-d {
+    color: var(--dark);
+}
+
+/* border radius classes */
+.br-5 {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.br-8 {
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+}
+
+/* padding classes */
+.p-6 {
+    padding: 6px;
+}
+
+.p-14 {
+    padding: 14px;
+}
+
+/* image classes */
+.iof-c {
+    object-fit: contain;
+}
+
+/* display classes */
+.d-n {
+    display: none;
+}
+
+/* background classes */
+.bg-lg {
+    background-color: var(--lil-grey);
+}
+
+.bg-l {
+    background-color: var(--light);
+}
+
+/* width classes */
+.w-300 {
+    width: 300px;
+}
+
+/* cursor classes */
+.cur-p {
+    cursor: pointer;
+}

@@ -1,0 +1,8 @@
+User-agent: *
+Sitemap: http://buddybonds.com/sitemap.xml
+Disallow: http://buddybonds.com/server_css
+Disallow: http://buddybonds.com/server_images
+Disallow: http://buddybonds.com/server_js
+Disallow: http://buddybonds.com/server_scripts
+Disallow: http://buddybonds.com/user_uploads
+Disallow: http://buddybonds.com/encoded_key_msg.txt

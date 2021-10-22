@@ -1,0 +1,11 @@
+1. username max len - 32
+    eml max len - 256
+    fullname max len - 256
+2. bar users from using "buddybonds" or "admin" in their usernames //client side
+3. alphanumeric and _s only in usernames // to be done simultaneously with checkUsername
+4. show buddy pic in place of login | signup on manifesto etc. pages if logged in
+
+
+During Phase One of the MCU, Marvel Studios lined up some of their films'stories with referenc
+es to one another, though they had no long-term plan fo
+r the shared universe's timeline at that point.Iron Man 2 is set six months after the events of Iron M
